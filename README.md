@@ -15,7 +15,7 @@ API test automation project built with Python, Pytest, and Requests against the 
 ---
 
 ## Project Structure
-
+```
 gorest-api-automation/
 ├── .github/
 │   └── workflows/
@@ -32,7 +32,7 @@ gorest-api-automation/
 ├── conftest.py
 ├── requirements.txt
 └── settings.py
-
+```
 ---
 
 ## Setup
