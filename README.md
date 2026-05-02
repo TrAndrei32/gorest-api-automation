@@ -96,3 +96,25 @@ The project includes a GitHub Actions pipeline configured with `workflow_dispatc
 ## Authentication
 
 The project uses Bearer token authentication. The token is stored locally in a `.env` file which is excluded from version control via `.gitignore`. In CI/CD environments, the token is injected via GitHub Secrets.
+
+---
+
+## Docker
+
+The project is fully containerized and can be run without any local Python or requests setup.
+
+### Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+
+### Build the image
+
+```bash
+docker build -t gorest-api-tests .
+```
+
+### Run the tests
+
+```bash
+docker run --env-file .env gorest-api-tests
+```
