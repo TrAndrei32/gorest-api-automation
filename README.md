@@ -41,7 +41,7 @@ gorest-api-automation/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/gorest-api-automation.git
+git clone (https://github.com/TrAndrei32/gorest-api-automation.git)
 cd gorest-api-automation
 ```
 
