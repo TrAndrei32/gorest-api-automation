@@ -79,11 +79,11 @@ Get your free token at [gorest.co.in](https://gorest.co.in) by logging in with G
 | Suite | Tests | Operations |
 |-------|-------|------------|
 | GET | 6 | Get all users, filter by status, get single user, validate response fields |
-| POST | 4 | Create user, validate response data, negative test (missing field) |
+| POST | 7 | Create user, validate response data, negative test (missing field), create user with status active, create user with status inactive, negative test (missing status - 422) |
 | PUT | 4 | Update user name, update user status, negative test (nonexistent user) |
 | DELETE | 2 | Delete user and verify response, verify user no longer exists |
 
-**Total: 16 tests**
+**Total: 19 tests**
 
 ---
 
