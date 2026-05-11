@@ -29,6 +29,8 @@ gorest-api-automation/
 │   └── 04_test_users_delete.py
 ├── .env
 ├── .gitignore
+├── .dockerignore
+├── dockerfile
 ├── conftest.py
 ├── requirements.txt
 └── settings.py
