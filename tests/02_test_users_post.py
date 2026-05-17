@@ -4,6 +4,7 @@ import random
 
 class TestPostUsers:
 
+    @pytest.mark.smoke
     def test_create_user_status_code(self, user_service):
         payload = {
             "name": "Test User",

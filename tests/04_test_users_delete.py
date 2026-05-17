@@ -4,6 +4,7 @@ import random
 
 class TestDeleteUsers:
 
+    @pytest.mark.smoke
     def test_delete_user_status_code_body(self, user_service):
         payload = {
             "name": "Delete me",

@@ -3,6 +3,7 @@ import pytest
 
 class TestGetUsers:
 
+    @pytest.mark.smoke
     def test_get_all_users_status_code(self, user_service):
         response = user_service.get_users()
         assert response.status_code == 200
