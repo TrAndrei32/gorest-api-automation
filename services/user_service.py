@@ -19,5 +19,8 @@ class UserService:
     def update_user(self, user_id, payload):
         return requests.put(f"{BASE_URL}/users/{user_id}", json=payload, headers=HEADERS)
 
+    def patch_user(self, user_id, payload):
+        return requests.patch(f"{BASE_URL}/users/{user_id}", json=payload, headers=HEADERS)
+
     def delete_user(self, user_id):
         return requests.delete(f"{BASE_URL}/users/{user_id}", headers=HEADERS)

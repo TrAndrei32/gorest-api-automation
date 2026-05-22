@@ -26,7 +26,9 @@ gorest-api-automation/
 │   ├── 01_test_users_get.py
 │   ├── 02_test_users_post.py
 │   ├── 03_test_users_put.py
-│   └── 04_test_users_delete.py
+│   ├── 04_test_users_delete.py
+│   ├── 05_test_users_patch.py
+│   └── 06_test_schema_validation.py
 ├── .env
 ├── .gitignore
 ├── .dockerignore
